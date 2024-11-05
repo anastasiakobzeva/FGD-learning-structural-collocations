@@ -1,0 +1,221 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r}
+rm(list = ls())  # removing everything from the environment
+library(tidyverse)
+library(ggpubr)
+library(readxl)
+exp_data = read.csv("../data/condition_means_labpaper.csv")
+```
+
+
+```{r}
+model_data = read_excel("../data/model_results_all.xlsx")
+```
+
+
+```{r}
+# making sure that these variables are handled as factors
+factors <- c("distance", "structure", "condition", "dependency", "n_gram")
+model_data[factors] <- lapply(model_data[factors], factor)
+
+# probability is a numeric variable
+model_data$log_probability = as.numeric(model_data$log_probability)
+```
+
+```{r}
+# four main experiments reported in the paper
+exp_subj = subset(exp_data, condition=="Subject")
+exp_adj = subset(exp_data, condition=="Adjunct")
+exp_eq = subset(exp_data, condition=="EQ")
+exp_rc = subset(exp_data, condition=="RC")
+
+model_subj = subset(model_data, condition=="Subject")
+model_eq = subset(model_data, condition=="EQ")
+model_adj = subset(model_data, condition=="Adjunct")
+model_rc = subset(model_data, condition=="RC-predlink")
+```
+
+
+```{r}
+plot_zscore = function(data){
+  plot = 
+	ggplot(data, aes(x=factor(ordered(distance, levels=c("Short","Long"))), y=zscores)) + 
+  geom_point(data=data, shape=3, aes(y = zscores)) + 
+	#geom_linerange(data=data, aes(y=zscores, ymin=zscores-error, 
+	 #                                   ymax=zscores+error), size=0.5) + 
+	geom_line(data=data, aes(y=zscores, group=structure,
+	                         linetype=structure), size=1) +
+  scale_linetype_manual(values=c("dotted", "solid")) +
+	xlab("Distance") + ylab("z-score")+ facet_grid(dependency~condition) +
+  ggtitle("Experimental data") + ylim(-1.1, 1.1) +
+  theme_bw() + theme(axis.text=element_text(size = 11),
+                     axis.title=element_text(size = 11)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 14)) +  # title label
+  theme(legend.text = element_text(size = 13), legend.title = element_text(size = 13)) +
+  theme(strip.text = element_text(size = 13)) + # facet label
+  theme(strip.text.y = element_blank())
+  
+  
+  return(plot)
+}
+```
+
+```{r}
+plot_prob = function(data){
+  plot = 
+	ggplot(data, aes(x=factor(ordered(distance, levels=c("Short","Long"))), y=log_probability)) + 
+  geom_point(data=data, shape=3, aes(y = log_probability)) + 
+	geom_line(data=data, aes(y=log_probability, group=structure, 
+	                         linetype=structure), size=1) +
+  scale_linetype_manual(values=c("dotted", "solid")) +
+  ggtitle("Modeling results") + ylim(-38,0) +
+	xlab("Distance") + ylab("log probability") + facet_grid(dependency~n_gram) +
+  theme_bw() + theme(axis.text=element_text(size = 11),
+                     axis.title=element_text(size = 11)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 14)) +  # title label
+  theme(legend.text = element_text(size = 13), legend.title = element_text(size = 13)) +
+  theme(strip.text = element_text(size = 13))  # facet label
+  
+  return(plot)
+}
+```
+
+```{r}
+m_eq = plot_prob(model_eq)
+m_eq
+```
+
+```{r}
+e_eq = plot_zscore(exp_eq)
+e_eq
+```
+
+```{r}
+plot_eq = ggarrange(e_eq + rremove("xlab"), m_eq + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_eq, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/eq_common.pdf", width = 10, height = 5)
+```
+
+```{r}
+m_subj = plot_prob(model_subj)
+e_subj = plot_zscore(exp_subj)
+
+plot_subj = ggarrange(e_subj + rremove("xlab"), m_subj + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_subj, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/subj_common.pdf", width = 10, height = 5)
+```
+
+```{r}
+m_adj = plot_prob(model_adj)
+e_adj = plot_zscore(exp_adj)
+
+plot_adj = ggarrange(e_adj + rremove("xlab"), m_adj + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_adj, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/adj_common.pdf", width = 10, height = 5)
+```
+
+```{r}
+m_rc = plot_prob(model_rc)
+e_rc = plot_zscore(exp_rc)
+
+plot_rc = ggarrange(e_rc + rremove("xlab"), m_rc + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_rc, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/rc_common.pdf", width = 10, height = 5)
+```
+
+```{r}
+# Additional comparisons for the Appendix
+model_cnp = subset(model_data, condition=="CNP")
+model_eq_obj = subset(model_data, condition=="EQ-object")
+model_whether_subj = subset(model_data, condition=="Whether-subject")
+model_whether_obj = subset(model_data, condition=="Whether-object")
+model_rc_subj = subset(model_data, condition=="RC-subject")
+model_rc_pcomp = subset(model_data, condition=="RC-Pcomp")
+```
+
+
+```{r}
+plot_prob(model_eq_obj)
+ggsave("../figures/apdx_eq_obj.pdf", height = 5)
+```
+
+```{r}
+plot_prob(model_whether_subj)
+ggsave("../figures/apdx_whether_subj.pdf", height = 5)
+```
+
+```{r}
+# Experimental data from other studies
+other = read_excel("../data/other_comparisons.xlsx")
+# making sure that these variables are handled as factors
+factors <- c("distance", "structure", "condition", "dependency")
+other[factors] <- lapply(other[factors], factor)
+
+# probability is a numeric variable
+other$zscores = as.numeric(other$zscores)
+```
+
+
+```{r}
+exp_cnp = subset(other, condition=="CNP")
+exp_whether_obj = subset(other, condition=="Whether-object")
+exp_rc_pcomp = subset(other, condition=="RC-Pcomp")
+```
+
+```{r}
+m_cnp = plot_prob(model_cnp)
+e_cnp = plot_zscore(exp_cnp)
+
+plot_cnp = ggarrange(e_cnp + rremove("xlab"), m_cnp + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_cnp, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/apdx_cnp.pdf", width = 10, height = 5)
+```
+
+```{r}
+m_whether_obj = plot_prob(model_whether_obj)
+e_whether_obj = plot_zscore(exp_whether_obj)
+
+plot_whether_obj = ggarrange(e_whether_obj + rremove("xlab"), m_whether_obj + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_whether_obj, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/apdx_whether_obj.pdf", width = 10, height = 5)
+```
+
+```{r}
+# No exp data for comparison
+m_rc_subj = plot_prob(model_rc_subj)
+m_rc_subj
+ggsave("../figures/apdx_rc_subj.pdf", height = 5)
+```
+
+```{r}
+e_rc_pcomp = plot_zscore(exp_rc_pcomp)
+e_rc_pcomp
+```
+
+
+```{r}
+m_rc_pcomp = plot_prob(model_rc_pcomp)
+plot_rc_pcomp = ggarrange(e_rc_pcomp + rremove("xlab"), m_rc_pcomp + rremove("xlab"), ncol=2, common.legend = TRUE, 
+                    legend = "right", widths = c(0.55, 1))
+require(grid)   # for the textGrob() function
+annotate_figure(plot_rc_pcomp, bottom = textGrob("Distance", gp = gpar(cex = 1)))
+ggsave("../figures/apdx_rc_pcomp.pdf", width = 10, height = 5)
+```
