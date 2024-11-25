@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<corpus id="nob-child">
+<head><meta>
+<name>nob-child</name>
+<author></author>
+<date>2021-04-27</date></meta>
+<annotation>
+<feature name="word" domain="T"/>
+<feature name="cat" domain="NT"/>
+<feature name="val" domain="T"/>
+<feature name="edge" domain="FREC"/>
+<edgelabel><value name="--"/></edgelabel></annotation></head><body>
+<s id="s61830">
+<graph root="s2667_0_c_6962">
+<terminals>
+<t id="s2667_0_c_1" word="Så" val="--"/>
+<t id="s2667_0_c_43" word="kokte" val="--"/>
+<t id="s2667_0_c_112" word="de" val="--"/>
+<t id="s2667_0_c_182" word="undertøyet" val="--"/>
+<t id="s2667_0_c_216" word="sitt" val="--"/>
+<t id="s2667_0_c_283" word="i" val="--"/>
+<t id="s2667_0_c_316" word="den" val="--"/>
+<t id="s2667_0_c_352" word="gryta" val="--"/>
+<t id="s2667_0_c_386" word="de" val="--"/>
+<t id="s2667_0_c_456" word="laget" val="--"/>
+<t id="s2667_0_c_537" word="mat" val="--"/>
+<t id="s2667_0_c_602" word="i" val="--"/>
+<t id="s2667_0_c_635" word="." val="--"/>
+<t id="s2667_0_f_0_VTYPE" word="--" val="main"/>
+<t id="s2667_0_f_0_VFORM" word="--" val="fin"/>
+<t id="s2667_0_f_0_STMT-TYPE" word="--" val="decl"/>
+<t id="s2667_0_f_48_TENSE" word="--" val="past"/>
+<t id="s2667_0_f_48_MOOD" word="--" val="indicative"/>
+<t id="s2667_0_f_39__MAIN-CL" word="--" val="+"/>
+<t id="s2667_0_f_2_ADV-TYPE" word="--" val="nexus"/>
+<t id="s2667_0_f_2_PRED" word="--" val="så"/>
+<t id="s2667_0_f_3_PTYPE" word="--" val="sem"/>
+<t id="s2667_0_f_3_PFORM" word="--" val="i"/>
+<t id="s2667_0_f_5_PERS" word="--" val="3"/>
+<t id="s2667_0_f_5_NUM" word="--" val="pl"/>
+<t id="s2667_0_f_7_PERS" word="--" val="3"/>
+<t id="s2667_0_f_7_NUM" word="--" val="sg"/>
+<t id="s2667_0_f_7_DEF-MORPH" word="--" val="+"/>
+<t id="s2667_0_f_7_DEF" word="--" val="+"/>
+<t id="s2667_0_f_7_CASE" word="--" val="obl"/>
+<t id="s2667_0_f_38_DET-TYPE" word="--" val="demORart"/>
+<t id="s2667_0_f_38_PRED" word="--" val="den"/>
+<t id="s2667_0_f_16_NSYN" word="--" val="common"/>
+<t id="s2667_0_f_17_COMMON" word="--" val="count"/>
+<t id="s2667_0_f_15_NEUT" word="--" val="-"/>
+<t id="s2667_0_f_15_MASC" word="--" val="-"/>
+<t id="s2667_0_f_15_FEM" word="--" val="+"/>
+<t id="s2667_0_f_36__PREDET" word="--" val="+"/>
+<t id="s2667_0_f_36__PREDEF" word="--" val="+"/>
+<t id="s2667_0_f_36__NOUN" word="--" val="+"/>
+<t id="s2667_0_f_9_VTYPE" word="--" val="main"/>
+<t id="s2667_0_f_9_VFORM" word="--" val="fin"/>
+<t id="s2667_0_f_9_RESTR" word="--" val="+"/>
+<t id="s2667_0_f_9_CLAUSE-TYPE" word="--" val="rel"/>
+<t id="s2667_0_f_14_PERS" word="--" val="3"/>
+<t id="s2667_0_f_14_NUM" word="--" val="sg"/>
+<t id="s2667_0_f_14_CASE" word="--" val="obl"/>
+<t id="s2667_0_f_14_PRED" word="--" val="pro"/>
+<t id="s2667_0_f_31_TENSE" word="--" val="past"/>
+<t id="s2667_0_f_31_MOOD" word="--" val="indicative"/>
+<t id="s2667_0_f_23__OBJINSITU" word="--" val="+"/>
+<t id="s2667_0_f_11_PTYPE" word="--" val="sem"/>
+<t id="s2667_0_f_11_PFORM" word="--" val="i"/>
+<t id="s2667_0_f_12__MOVED-OBJ" word="--" val="+"/>
+<t id="s2667_0_f_13_PERS" word="--" val="3"/>
+<t id="s2667_0_f_13_NUM" word="--" val="pl"/>
+<t id="s2667_0_f_11_PRED" word="--" val="i"/>
+<t id="s2667_0_f_24_PERS" word="--" val="3"/>
+<t id="s2667_0_f_24_NUM" word="--" val="sg"/>
+<t id="s2667_0_f_24_DEF-MORPH" word="--" val="-"/>
+<t id="s2667_0_f_24_CASE" word="--" val="obl"/>
+<t id="s2667_0_f_29_NSYN" word="--" val="common"/>
+<t id="s2667_0_f_30_COMMON" word="--" val="mass"/>
+<t id="s2667_0_f_28_NEUT" word="--" val="-"/>
+<t id="s2667_0_f_28_MASC" word="--" val="+"/>
+<t id="s2667_0_f_28_FEM" word="--" val="-"/>
+<t id="s2667_0_f_25__PREPEXISTS" word="--" val="-"/>
+<t id="s2667_0_f_25__NOUN" word="--" val="+"/>
+<t id="s2667_0_f_25__NON-FINAL" word="--" val="+"/>
+<t id="s2667_0_f_26_REF" word="--" val="+"/>
+<t id="s2667_0_f_26_PRON-TYPE" word="--" val="pers"/>
+<t id="s2667_0_f_26_PRON-FORM" word="--" val="de"/>
+<t id="s2667_0_f_26_PERS" word="--" val="3"/>
+<t id="s2667_0_f_26_NUM" word="--" val="pl"/>
+<t id="s2667_0_f_26_DEF" word="--" val="+"/>
+<t id="s2667_0_f_26_CASE" word="--" val="nom"/>
+<t id="s2667_0_f_27_NSYN" word="--" val="pronoun"/>
+<t id="s2667_0_f_26_PRED" word="--" val="de"/>
+<t id="s2667_0_f_24_PRED" word="--" val="mat"/>
+<t id="s2667_0_f_9_PRED" word="--" val="lage"/>
+<t id="s2667_0_f_7_PRED" word="--" val="gryte"/>
+<t id="s2667_0_f_3_PRED" word="--" val="i"/>
+<t id="s2667_0_f_40_REF" word="--" val="+"/>
+<t id="s2667_0_f_40_PERS" word="--" val="3"/>
+<t id="s2667_0_f_40_NUM" word="--" val="sg"/>
+<t id="s2667_0_f_40_DEF-MORPH" word="--" val="+"/>
+<t id="s2667_0_f_40_DEF" word="--" val="+"/>
+<t id="s2667_0_f_40_CASE" word="--" val="obl"/>
+<t id="s2667_0_f_47_POSS-TYPE" word="--" val="3persrefl"/>
+<t id="s2667_0_f_47_NUM" word="--" val="sg"/>
+<t id="s2667_0_f_47_PRED" word="--" val="pro"/>
+<t id="s2667_0_f_21_NSYN" word="--" val="common"/>
+<t id="s2667_0_f_22_COMMON" word="--" val="mass"/>
+<t id="s2667_0_f_20_NEUT" word="--" val="+"/>
+<t id="s2667_0_f_20_MASC" word="--" val="-"/>
+<t id="s2667_0_f_20_FEM" word="--" val="-"/>
+<t id="s2667_0_f_42__PREPEXISTS" word="--" val="-"/>
+<t id="s2667_0_f_42__NOUN" word="--" val="+"/>
+<t id="s2667_0_f_42__NON-FINAL" word="--" val="+"/>
+<t id="s2667_0_f_43_REF" word="--" val="+"/>
+<t id="s2667_0_f_43_PRON-TYPE" word="--" val="pers"/>
+<t id="s2667_0_f_43_PRON-FORM" word="--" val="de"/>
+<t id="s2667_0_f_43_PERS" word="--" val="3"/>
+<t id="s2667_0_f_43_NUM" word="--" val="pl"/>
+<t id="s2667_0_f_43_DEF" word="--" val="+"/>
+<t id="s2667_0_f_43_CASE" word="--" val="nom"/>
+<t id="s2667_0_f_44_NSYN" word="--" val="pronoun"/>
+<t id="s2667_0_f_43_PRED" word="--" val="de"/>
+<t id="s2667_0_f_40_PRED" word="--" val="undertøy"/>
+<t id="s2667_0_f_0_PRED" word="--" val="koke"/>
+</terminals>
+<nonterminals>
+<nt id="s2667_0_c_6962" cat="ROOT">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_6951"/>
+   <edge label="--" idref="s2667_0_c_636"/></nt>
+<nt id="s2667_0_c_6951" cat="IP">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_13593"/>
+   <edge label="--" idref="s2667_0_c_12213"/></nt>
+<nt id="s2667_0_c_13593" cat="ADVPs">
+   <edge label="f::" idref="s2667_0_f_2"/>
+   <edge label="--" idref="s2667_0_c_13589"/></nt>
+<nt id="s2667_0_c_13589" cat="ADVs">
+   <edge label="f::" idref="s2667_0_f_2"/>
+   <edge label="--" idref="s2667_0_c_1"/></nt>
+<nt id="s2667_0_c_12213" cat="I'">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_12078"/>
+   <edge label="--" idref="s2667_0_c_12106"/></nt>
+<nt id="s2667_0_c_12078" cat="Vfin">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_43"/></nt>
+<nt id="s2667_0_c_12106" cat="S">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_8134"/>
+   <edge label="--" idref="s2667_0_c_9407"/></nt>
+<nt id="s2667_0_c_8134" cat="PRONP">
+   <edge label="f::" idref="s2667_0_f_43"/>
+   <edge label="--" idref="s2667_0_c_8132"/></nt>
+<nt id="s2667_0_c_8132" cat="PRON">
+   <edge label="f::" idref="s2667_0_f_43"/>
+   <edge label="--" idref="s2667_0_c_112"/></nt>
+<nt id="s2667_0_c_9407" cat="VPmain">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_5889"/>
+   <edge label="--" idref="s2667_0_c_5316"/></nt>
+<nt id="s2667_0_c_5889" cat="NP">
+   <edge label="f::" idref="s2667_0_f_40"/>
+   <edge label="--" idref="s2667_0_c_1317"/>
+   <edge label="--" idref="s2667_0_c_1509"/></nt>
+<nt id="s2667_0_c_1317" cat="N">
+   <edge label="f::" idref="s2667_0_f_40"/>
+   <edge label="--" idref="s2667_0_c_182"/></nt>
+<nt id="s2667_0_c_1509" cat="POSS">
+   <edge label="f::" idref="s2667_0_f_40"/>
+   <edge label="--" idref="s2667_0_c_216"/></nt>
+<nt id="s2667_0_c_5316" cat="PP">
+   <edge label="f::" idref="s2667_0_f_3"/>
+   <edge label="--" idref="s2667_0_c_1670"/>
+   <edge label="--" idref="s2667_0_c_5248"/></nt>
+<nt id="s2667_0_c_1670" cat="P">
+   <edge label="f::" idref="s2667_0_f_3"/>
+   <edge label="--" idref="s2667_0_c_283"/></nt>
+<nt id="s2667_0_c_5248" cat="DP">
+   <edge label="f::" idref="s2667_0_f_7"/>
+   <edge label="--" idref="s2667_0_c_5152"/>
+   <edge label="--" idref="s2667_0_c_4629"/></nt>
+<nt id="s2667_0_c_5152" cat="D">
+   <edge label="f::" idref="s2667_0_f_7"/>
+   <edge label="--" idref="s2667_0_c_316"/></nt>
+<nt id="s2667_0_c_4629" cat="NP">
+   <edge label="f::" idref="s2667_0_f_7"/>
+   <edge label="--" idref="s2667_0_c_1880"/>
+   <edge label="--" idref="s2667_0_c_4531"/></nt>
+<nt id="s2667_0_c_1880" cat="N">
+   <edge label="f::" idref="s2667_0_f_7"/>
+   <edge label="--" idref="s2667_0_c_352"/></nt>
+<nt id="s2667_0_c_4531" cat="Ssub2">
+   <edge label="f::" idref="s2667_0_f_9"/>
+   <edge label="--" idref="s2667_0_c_3634"/>
+   <edge label="--" idref="s2667_0_c_4342"/></nt>
+<nt id="s2667_0_c_3634" cat="PRONP">
+   <edge label="f::" idref="s2667_0_f_26"/>
+   <edge label="--" idref="s2667_0_c_3632"/></nt>
+<nt id="s2667_0_c_3632" cat="PRON">
+   <edge label="f::" idref="s2667_0_f_26"/>
+   <edge label="--" idref="s2667_0_c_386"/></nt>
+<nt id="s2667_0_c_4342" cat="VPfin">
+   <edge label="f::" idref="s2667_0_f_9"/>
+   <edge label="--" idref="s2667_0_c_4333"/>
+   <edge label="--" idref="s2667_0_c_2681"/>
+   <edge label="--" idref="s2667_0_c_2440"/></nt>
+<nt id="s2667_0_c_4333" cat="Vfin">
+   <edge label="f::" idref="s2667_0_f_9"/>
+   <edge label="--" idref="s2667_0_c_456"/></nt>
+<nt id="s2667_0_c_2681" cat="NP">
+   <edge label="f::" idref="s2667_0_f_24"/>
+   <edge label="--" idref="s2667_0_c_2674"/></nt>
+<nt id="s2667_0_c_2674" cat="N">
+   <edge label="f::" idref="s2667_0_f_24"/>
+   <edge label="--" idref="s2667_0_c_537"/></nt>
+<nt id="s2667_0_c_2440" cat="PP">
+   <edge label="f::" idref="s2667_0_f_11"/>
+   <edge label="--" idref="s2667_0_c_2400"/></nt>
+<nt id="s2667_0_c_2400" cat="P">
+   <edge label="f::" idref="s2667_0_f_11"/>
+   <edge label="--" idref="s2667_0_c_602"/></nt>
+<nt id="s2667_0_c_636" cat="PERIOD">
+   <edge label="f::" idref="s2667_0_f_0"/>
+   <edge label="--" idref="s2667_0_c_635"/></nt>
+<nt id="s2667_0_f_0" cat="_TOP">
+   <edge label="VTYPE" idref="s2667_0_f_0_VTYPE"/>
+   <edge label="VFORM" idref="s2667_0_f_0_VFORM"/>
+   <edge label="STMT-TYPE" idref="s2667_0_f_0_STMT-TYPE"/>
+   <edge label="TNS-ASP" idref="s2667_0_f_48"/>
+   <edge label="CHECK" idref="s2667_0_f_39"/>
+   <edge label="TOPIC" idref="s2667_0_f_2"/>
+   <edge label="ADJUNCT" idref="s2667_0_f_1"/>
+   <edge label="OBJ" idref="s2667_0_f_40"/>
+   <edge label="SUBJ" idref="s2667_0_f_43"/>
+   <edge label="PRED" idref="s2667_0_f_0_PRED"/></nt>
+<nt id="s2667_0_f_40" cat="--">
+   <edge label="--" idref="s2667_0_f_undertøy"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="REF" idref="s2667_0_f_40_REF"/>
+   <edge label="PERS" idref="s2667_0_f_40_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_40_NUM"/>
+   <edge label="DEF-MORPH" idref="s2667_0_f_40_DEF-MORPH"/>
+   <edge label="DEF" idref="s2667_0_f_40_DEF"/>
+   <edge label="CASE" idref="s2667_0_f_40_CASE"/>
+   <edge label="SPEC" idref="s2667_0_f_46"/>
+   <edge label="NTYPE" idref="s2667_0_f_21"/>
+   <edge label="GEND" idref="s2667_0_f_20"/>
+   <edge label="CHECK" idref="s2667_0_f_42"/>
+   <edge label="PRED" idref="s2667_0_f_40_PRED"/></nt>
+<nt id="s2667_0_f_42" cat="--">
+   <edge label="_PREPEXISTS" idref="s2667_0_f_42__PREPEXISTS"/>
+   <edge label="_NOUN" idref="s2667_0_f_42__NOUN"/>
+   <edge label="_NON-FINAL" idref="s2667_0_f_42__NON-FINAL"/>
+   <edge label="_ANTECED" idref="s2667_0_f_43"/></nt>
+<nt id="s2667_0_f_43" cat="--">
+   <edge label="--" idref="s2667_0_f_de"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="REF" idref="s2667_0_f_43_REF"/>
+   <edge label="PRON-TYPE" idref="s2667_0_f_43_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s2667_0_f_43_PRON-FORM"/>
+   <edge label="PERS" idref="s2667_0_f_43_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_43_NUM"/>
+   <edge label="DEF" idref="s2667_0_f_43_DEF"/>
+   <edge label="CASE" idref="s2667_0_f_43_CASE"/>
+   <edge label="NTYPE" idref="s2667_0_f_44"/>
+   <edge label="PRED" idref="s2667_0_f_43_PRED"/></nt>
+<nt id="s2667_0_f_44" cat="--">
+   <edge label="NSYN" idref="s2667_0_f_44_NSYN"/></nt>
+<nt id="s2667_0_f_20" cat="--">
+   <edge label="NEUT" idref="s2667_0_f_20_NEUT"/>
+   <edge label="MASC" idref="s2667_0_f_20_MASC"/>
+   <edge label="FEM" idref="s2667_0_f_20_FEM"/></nt>
+<nt id="s2667_0_f_21" cat="--">
+   <edge label="NSYN" idref="s2667_0_f_21_NSYN"/>
+   <edge label="NSEM" idref="s2667_0_f_22"/></nt>
+<nt id="s2667_0_f_22" cat="--">
+   <edge label="COMMON" idref="s2667_0_f_22_COMMON"/></nt>
+<nt id="s2667_0_f_46" cat="--">
+   <edge label="POSS" idref="s2667_0_f_47"/></nt>
+<nt id="s2667_0_f_47" cat="--">
+   <edge label="--" idref="s2667_0_f_pro"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="POSS-TYPE" idref="s2667_0_f_47_POSS-TYPE"/>
+   <edge label="NUM" idref="s2667_0_f_47_NUM"/>
+   <edge label="PRED" idref="s2667_0_f_47_PRED"/></nt>
+<nt id="s2667_0_f_1" cat="--">
+   <edge label="$" idref="s2667_0_f_3"/>
+   <edge label="$" idref="s2667_0_f_2"/></nt>
+<nt id="s2667_0_f_3" cat="--">
+   <edge label="--" idref="s2667_0_f_i"/>
+   <edge label="" idref="s2667_0_f_((7 . OBJ))"/>
+   <edge label="PTYPE" idref="s2667_0_f_3_PTYPE"/>
+   <edge label="PFORM" idref="s2667_0_f_3_PFORM"/>
+   <edge label="CHECK" idref="s2667_0_f_4"/>
+   <edge label="OBJ" idref="s2667_0_f_7"/>
+   <edge label="PRED" idref="s2667_0_f_3_PRED"/></nt>
+<nt id="s2667_0_f_7" cat="--">
+   <edge label="--" idref="s2667_0_f_gryte"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="PERS" idref="s2667_0_f_7_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_7_NUM"/>
+   <edge label="DEF-MORPH" idref="s2667_0_f_7_DEF-MORPH"/>
+   <edge label="DEF" idref="s2667_0_f_7_DEF"/>
+   <edge label="CASE" idref="s2667_0_f_7_CASE"/>
+   <edge label="SPEC" idref="s2667_0_f_37"/>
+   <edge label="NTYPE" idref="s2667_0_f_16"/>
+   <edge label="GEND" idref="s2667_0_f_15"/>
+   <edge label="CHECK" idref="s2667_0_f_36"/>
+   <edge label="ADJUNCT" idref="s2667_0_f_8"/>
+   <edge label="PRED" idref="s2667_0_f_7_PRED"/></nt>
+<nt id="s2667_0_f_8" cat="--">
+   <edge label="$" idref="s2667_0_f_9"/></nt>
+<nt id="s2667_0_f_9" cat="--">
+   <edge label="--" idref="s2667_0_f_lage"/>
+   <edge label="" idref="s2667_0_f_((26 . SUBJ) (24 . OBJ))"/>
+   <edge label="VTYPE" idref="s2667_0_f_9_VTYPE"/>
+   <edge label="VFORM" idref="s2667_0_f_9_VFORM"/>
+   <edge label="RESTR" idref="s2667_0_f_9_RESTR"/>
+   <edge label="CLAUSE-TYPE" idref="s2667_0_f_9_CLAUSE-TYPE"/>
+   <edge label="TOPIC-REL" idref="s2667_0_f_14"/>
+   <edge label="TNS-ASP" idref="s2667_0_f_31"/>
+   <edge label="CHECK" idref="s2667_0_f_23"/>
+   <edge label="ADJUNCT" idref="s2667_0_f_10"/>
+   <edge label="OBJ" idref="s2667_0_f_24"/>
+   <edge label="SUBJ" idref="s2667_0_f_26"/>
+   <edge label="PRED" idref="s2667_0_f_9_PRED"/></nt>
+<nt id="s2667_0_f_24" cat="--">
+   <edge label="--" idref="s2667_0_f_mat"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="PERS" idref="s2667_0_f_24_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_24_NUM"/>
+   <edge label="DEF-MORPH" idref="s2667_0_f_24_DEF-MORPH"/>
+   <edge label="CASE" idref="s2667_0_f_24_CASE"/>
+   <edge label="NTYPE" idref="s2667_0_f_29"/>
+   <edge label="GEND" idref="s2667_0_f_28"/>
+   <edge label="CHECK" idref="s2667_0_f_25"/>
+   <edge label="PRED" idref="s2667_0_f_24_PRED"/></nt>
+<nt id="s2667_0_f_25" cat="--">
+   <edge label="_PREPEXISTS" idref="s2667_0_f_25__PREPEXISTS"/>
+   <edge label="_NOUN" idref="s2667_0_f_25__NOUN"/>
+   <edge label="_NON-FINAL" idref="s2667_0_f_25__NON-FINAL"/>
+   <edge label="_ANTECED" idref="s2667_0_f_26"/></nt>
+<nt id="s2667_0_f_26" cat="--">
+   <edge label="--" idref="s2667_0_f_de"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="REF" idref="s2667_0_f_26_REF"/>
+   <edge label="PRON-TYPE" idref="s2667_0_f_26_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s2667_0_f_26_PRON-FORM"/>
+   <edge label="PERS" idref="s2667_0_f_26_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_26_NUM"/>
+   <edge label="DEF" idref="s2667_0_f_26_DEF"/>
+   <edge label="CASE" idref="s2667_0_f_26_CASE"/>
+   <edge label="NTYPE" idref="s2667_0_f_27"/>
+   <edge label="PRED" idref="s2667_0_f_26_PRED"/></nt>
+<nt id="s2667_0_f_27" cat="--">
+   <edge label="NSYN" idref="s2667_0_f_27_NSYN"/></nt>
+<nt id="s2667_0_f_28" cat="--">
+   <edge label="NEUT" idref="s2667_0_f_28_NEUT"/>
+   <edge label="MASC" idref="s2667_0_f_28_MASC"/>
+   <edge label="FEM" idref="s2667_0_f_28_FEM"/></nt>
+<nt id="s2667_0_f_29" cat="--">
+   <edge label="NSYN" idref="s2667_0_f_29_NSYN"/>
+   <edge label="NSEM" idref="s2667_0_f_30"/></nt>
+<nt id="s2667_0_f_30" cat="--">
+   <edge label="COMMON" idref="s2667_0_f_30_COMMON"/></nt>
+<nt id="s2667_0_f_10" cat="--">
+   <edge label="$" idref="s2667_0_f_11"/></nt>
+<nt id="s2667_0_f_11" cat="--">
+   <edge label="--" idref="s2667_0_f_i"/>
+   <edge label="" idref="s2667_0_f_((14 . OBJ))"/>
+   <edge label="PTYPE" idref="s2667_0_f_11_PTYPE"/>
+   <edge label="PFORM" idref="s2667_0_f_11_PFORM"/>
+   <edge label="CHECK" idref="s2667_0_f_12"/>
+   <edge label="OBJ" idref="s2667_0_f_14"/>
+   <edge label="PRED" idref="s2667_0_f_11_PRED"/></nt>
+<nt id="s2667_0_f_12" cat="--">
+   <edge label="_MOVED-OBJ" idref="s2667_0_f_12__MOVED-OBJ"/>
+   <edge label="_ANTECED" idref="s2667_0_f_13"/></nt>
+<nt id="s2667_0_f_13" cat="--">
+   <edge label="PERS" idref="s2667_0_f_13_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_13_NUM"/></nt>
+<nt id="s2667_0_f_23" cat="--">
+   <edge label="_OBJINSITU" idref="s2667_0_f_23__OBJINSITU"/></nt>
+<nt id="s2667_0_f_31" cat="--">
+   <edge label="TENSE" idref="s2667_0_f_31_TENSE"/>
+   <edge label="MOOD" idref="s2667_0_f_31_MOOD"/></nt>
+<nt id="s2667_0_f_14" cat="--">
+   <edge label="--" idref="s2667_0_f_pro"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="PERS" idref="s2667_0_f_14_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_14_NUM"/>
+   <edge label="CASE" idref="s2667_0_f_14_CASE"/>
+   <edge label="NTYPE" idref="s2667_0_f_16"/>
+   <edge label="GEND" idref="s2667_0_f_15"/>
+   <edge label="PRED" idref="s2667_0_f_14_PRED"/></nt>
+<nt id="s2667_0_f_36" cat="--">
+   <edge label="_PREDET" idref="s2667_0_f_36__PREDET"/>
+   <edge label="_PREDEF" idref="s2667_0_f_36__PREDEF"/>
+   <edge label="_NOUN" idref="s2667_0_f_36__NOUN"/>
+   <edge label="_ANTECED" idref="s2667_0_f_5"/></nt>
+<nt id="s2667_0_f_15" cat="--">
+   <edge label="NEUT" idref="s2667_0_f_15_NEUT"/>
+   <edge label="MASC" idref="s2667_0_f_15_MASC"/>
+   <edge label="FEM" idref="s2667_0_f_15_FEM"/></nt>
+<nt id="s2667_0_f_16" cat="--">
+   <edge label="NSYN" idref="s2667_0_f_16_NSYN"/>
+   <edge label="NSEM" idref="s2667_0_f_17"/></nt>
+<nt id="s2667_0_f_17" cat="--">
+   <edge label="COMMON" idref="s2667_0_f_17_COMMON"/></nt>
+<nt id="s2667_0_f_37" cat="--">
+   <edge label="DET" idref="s2667_0_f_38"/></nt>
+<nt id="s2667_0_f_38" cat="--">
+   <edge label="--" idref="s2667_0_f_den"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="DET-TYPE" idref="s2667_0_f_38_DET-TYPE"/>
+   <edge label="PRED" idref="s2667_0_f_38_PRED"/></nt>
+<nt id="s2667_0_f_4" cat="--">
+   <edge label="_ANTECED" idref="s2667_0_f_5"/></nt>
+<nt id="s2667_0_f_5" cat="--">
+   <edge label="PERS" idref="s2667_0_f_5_PERS"/>
+   <edge label="NUM" idref="s2667_0_f_5_NUM"/></nt>
+<nt id="s2667_0_f_2" cat="--">
+   <edge label="--" idref="s2667_0_f_så"/>
+   <edge label="" idref="s2667_0_f_NIL"/>
+   <edge label="ADV-TYPE" idref="s2667_0_f_2_ADV-TYPE"/>
+   <edge label="PRED" idref="s2667_0_f_2_PRED"/></nt>
+<nt id="s2667_0_f_39" cat="--">
+   <edge label="_MAIN-CL" idref="s2667_0_f_39__MAIN-CL"/></nt>
+<nt id="s2667_0_f_48" cat="--">
+   <edge label="TENSE" idref="s2667_0_f_48_TENSE"/>
+   <edge label="MOOD" idref="s2667_0_f_48_MOOD"/></nt>
+</nonterminals>
+</graph>
+</s>
+<s id="s89660">
+<graph root="s11697_0_c_3803">
+<terminals>
+<t id="s11697_0_c_1" word="–" val="--"/>
+<t id="s11697_0_c_299" word="Akkurat" val="--"/>
+<t id="s11697_0_c_42" word="hva" val="--"/>
+<t id="s11697_0_c_80" word="jeg" val="--"/>
+<t id="s11697_0_c_123" word="tenkte" val="--"/>
+<t id="s11697_0_c_159" word="jeg" val="--"/>
+<t id="s11697_0_c_202" word="skulle" val="--"/>
+<t id="s11697_0_c_238" word="gjøre" val="--"/>
+<t id="s11697_0_c_269" word="." val="--"/>
+<t id="s11697_0_f_0_REF" word="--" val="+"/>
+<t id="s11697_0_f_0_PRON-TYPE" word="--" val="free"/>
+<t id="s11697_0_f_0_PRON-FORM" word="--" val="hva"/>
+<t id="s11697_0_f_0_PERS" word="--" val="3"/>
+<t id="s11697_0_f_0_NUM" word="--" val="sg"/>
+<t id="s11697_0_f_16_NSYN" word="--" val="pronoun"/>
+<t id="s11697_0_f_3_VTYPE" word="--" val="main"/>
+<t id="s11697_0_f_3_VFORM" word="--" val="fin"/>
+<t id="s11697_0_f_3_CLAUSE-TYPE" word="--" val="rel"/>
+<t id="s11697_0_f_11_PRON-TYPE" word="--" val="rel"/>
+<t id="s11697_0_f_11_PRED" word="--" val="pro"/>
+<t id="s11697_0_f_15_TENSE" word="--" val="past"/>
+<t id="s11697_0_f_15_MOOD" word="--" val="indicative"/>
+<t id="s11697_0_f_4_VTYPE" word="--" val="aux"/>
+<t id="s11697_0_f_4_VFORM" word="--" val="fin"/>
+<t id="s11697_0_f_4_TOPCP" word="--" val="-"/>
+<t id="s11697_0_f_4_MODAL" word="--" val="+"/>
+<t id="s11697_0_f_4_CLAUSE-TYPE" word="--" val="nominal"/>
+<t id="s11697_0_f_8_TENSE" word="--" val="past"/>
+<t id="s11697_0_f_8_MOOD" word="--" val="indicative"/>
+<t id="s11697_0_f_9_VTYPE" word="--" val="main"/>
+<t id="s11697_0_f_9_VFORM" word="--" val="inf"/>
+<t id="s11697_0_f_10__TOPVP" word="--" val="-"/>
+<t id="s11697_0_f_5_REF" word="--" val="+"/>
+<t id="s11697_0_f_5_PRON-TYPE" word="--" val="pers"/>
+<t id="s11697_0_f_5_PRON-FORM" word="--" val="jeg"/>
+<t id="s11697_0_f_5_PERS" word="--" val="1"/>
+<t id="s11697_0_f_5_NUM" word="--" val="sg"/>
+<t id="s11697_0_f_5_DEF" word="--" val="+"/>
+<t id="s11697_0_f_5_CASE" word="--" val="nom"/>
+<t id="s11697_0_f_7_NSYN" word="--" val="pronoun"/>
+<t id="s11697_0_f_6_NEUT" word="--" val="-"/>
+<t id="s11697_0_f_5_PRED" word="--" val="jeg"/>
+<t id="s11697_0_f_9_PRED" word="--" val="gjøre"/>
+<t id="s11697_0_f_4_PRED" word="--" val="skulle"/>
+<t id="s11697_0_f_12_REF" word="--" val="+"/>
+<t id="s11697_0_f_12_PRON-TYPE" word="--" val="pers"/>
+<t id="s11697_0_f_12_PRON-FORM" word="--" val="jeg"/>
+<t id="s11697_0_f_12_PERS" word="--" val="1"/>
+<t id="s11697_0_f_12_NUM" word="--" val="sg"/>
+<t id="s11697_0_f_12_DEF" word="--" val="+"/>
+<t id="s11697_0_f_12_CASE" word="--" val="nom"/>
+<t id="s11697_0_f_14_NSYN" word="--" val="pronoun"/>
+<t id="s11697_0_f_13_NEUT" word="--" val="-"/>
+<t id="s11697_0_f_12_PRED" word="--" val="jeg"/>
+<t id="s11697_0_f_3_PRED" word="--" val="tenke"/>
+<t id="s11697_0_f_2_ADV-TYPE" word="--" val="focus"/>
+<t id="s11697_0_f_2_PRED" word="--" val="akkurat"/>
+<t id="s11697_0_f_0_PRED" word="--" val="pro"/>
+</terminals>
+<nonterminals>
+<nt id="s11697_0_c_3803" cat="ROOT">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_2"/>
+   <edge label="--" idref="s11697_0_c_3797"/>
+   <edge label="--" idref="s11697_0_c_270"/></nt>
+<nt id="s11697_0_c_2" cat="HYPHEN">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_1"/></nt>
+<nt id="s11697_0_c_3797" cat="NOMfoc">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_3774"/>
+   <edge label="--" idref="s11697_0_c_3050"/></nt>
+<nt id="s11697_0_c_3774" cat="ADVPfoc">
+   <edge label="f::" idref="s11697_0_f_2"/>
+   <edge label="--" idref="s11697_0_c_3772"/></nt>
+<nt id="s11697_0_c_3772" cat="ADVfoc">
+   <edge label="f::" idref="s11697_0_f_2"/>
+   <edge label="--" idref="s11697_0_c_299"/></nt>
+<nt id="s11697_0_c_3050" cat="WhPfree">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_43"/>
+   <edge label="--" idref="s11697_0_c_3048"/></nt>
+<nt id="s11697_0_c_43" cat="PRONfree">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_42"/></nt>
+<nt id="s11697_0_c_3048" cat="Ssub2">
+   <edge label="f::" idref="s11697_0_f_3"/>
+   <edge label="--" idref="s11697_0_c_3263"/>
+   <edge label="--" idref="s11697_0_c_2864"/></nt>
+<nt id="s11697_0_c_3263" cat="PRONP">
+   <edge label="f::" idref="s11697_0_f_12"/>
+   <edge label="--" idref="s11697_0_c_3261"/></nt>
+<nt id="s11697_0_c_3261" cat="PRON">
+   <edge label="f::" idref="s11697_0_f_12"/>
+   <edge label="--" idref="s11697_0_c_80"/></nt>
+<nt id="s11697_0_c_2864" cat="VPfin">
+   <edge label="f::" idref="s11697_0_f_3"/>
+   <edge label="--" idref="s11697_0_c_2853"/>
+   <edge label="--" idref="s11697_0_c_1632"/></nt>
+<nt id="s11697_0_c_2853" cat="Vfin">
+   <edge label="f::" idref="s11697_0_f_3"/>
+   <edge label="--" idref="s11697_0_c_123"/></nt>
+<nt id="s11697_0_c_1632" cat="Ssub2">
+   <edge label="f::" idref="s11697_0_f_4"/>
+   <edge label="--" idref="s11697_0_c_2001"/>
+   <edge label="--" idref="s11697_0_c_1629"/></nt>
+<nt id="s11697_0_c_2001" cat="PRONP">
+   <edge label="f::" idref="s11697_0_f_5"/>
+   <edge label="--" idref="s11697_0_c_1999"/></nt>
+<nt id="s11697_0_c_1999" cat="PRON">
+   <edge label="f::" idref="s11697_0_f_5"/>
+   <edge label="--" idref="s11697_0_c_159"/></nt>
+<nt id="s11697_0_c_1629" cat="VPauxfin">
+   <edge label="f::" idref="s11697_0_f_4"/>
+   <edge label="--" idref="s11697_0_c_1274"/>
+   <edge label="--" idref="s11697_0_c_1388"/></nt>
+<nt id="s11697_0_c_1274" cat="Vauxfin">
+   <edge label="f::" idref="s11697_0_f_4"/>
+   <edge label="--" idref="s11697_0_c_202"/></nt>
+<nt id="s11697_0_c_1388" cat="VP">
+   <edge label="f::" idref="s11697_0_f_9"/>
+   <edge label="--" idref="s11697_0_c_1383"/></nt>
+<nt id="s11697_0_c_1383" cat="Vinf">
+   <edge label="f::" idref="s11697_0_f_9"/>
+   <edge label="--" idref="s11697_0_c_238"/></nt>
+<nt id="s11697_0_c_270" cat="PERIOD">
+   <edge label="f::" idref="s11697_0_f_0"/>
+   <edge label="--" idref="s11697_0_c_269"/></nt>
+<nt id="s11697_0_f_0" cat="_TOP">
+   <edge label="REF" idref="s11697_0_f_0_REF"/>
+   <edge label="PRON-TYPE" idref="s11697_0_f_0_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s11697_0_f_0_PRON-FORM"/>
+   <edge label="PERS" idref="s11697_0_f_0_PERS"/>
+   <edge label="NUM" idref="s11697_0_f_0_NUM"/>
+   <edge label="NTYPE" idref="s11697_0_f_16"/>
+   <edge label="ADJUNCT" idref="s11697_0_f_1"/>
+   <edge label="PRED" idref="s11697_0_f_0_PRED"/></nt>
+<nt id="s11697_0_f_1" cat="--">
+   <edge label="$" idref="s11697_0_f_3"/>
+   <edge label="$" idref="s11697_0_f_2"/></nt>
+<nt id="s11697_0_f_2" cat="--">
+   <edge label="--" idref="s11697_0_f_akkurat"/>
+   <edge label="" idref="s11697_0_f_NIL"/>
+   <edge label="ADV-TYPE" idref="s11697_0_f_2_ADV-TYPE"/>
+   <edge label="PRED" idref="s11697_0_f_2_PRED"/></nt>
+<nt id="s11697_0_f_3" cat="--">
+   <edge label="--" idref="s11697_0_f_tenke"/>
+   <edge label="" idref="s11697_0_f_((12 . SUBJ) (4 . COMP))"/>
+   <edge label="VTYPE" idref="s11697_0_f_3_VTYPE"/>
+   <edge label="VFORM" idref="s11697_0_f_3_VFORM"/>
+   <edge label="CLAUSE-TYPE" idref="s11697_0_f_3_CLAUSE-TYPE"/>
+   <edge label="TOPIC-REL" idref="s11697_0_f_11"/>
+   <edge label="TNS-ASP" idref="s11697_0_f_15"/>
+   <edge label="COMP" idref="s11697_0_f_4"/>
+   <edge label="SUBJ" idref="s11697_0_f_12"/>
+   <edge label="PRED" idref="s11697_0_f_3_PRED"/></nt>
+<nt id="s11697_0_f_12" cat="--">
+   <edge label="--" idref="s11697_0_f_jeg"/>
+   <edge label="" idref="s11697_0_f_NIL"/>
+   <edge label="REF" idref="s11697_0_f_12_REF"/>
+   <edge label="PRON-TYPE" idref="s11697_0_f_12_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s11697_0_f_12_PRON-FORM"/>
+   <edge label="PERS" idref="s11697_0_f_12_PERS"/>
+   <edge label="NUM" idref="s11697_0_f_12_NUM"/>
+   <edge label="DEF" idref="s11697_0_f_12_DEF"/>
+   <edge label="CASE" idref="s11697_0_f_12_CASE"/>
+   <edge label="NTYPE" idref="s11697_0_f_14"/>
+   <edge label="GEND" idref="s11697_0_f_13"/>
+   <edge label="PRED" idref="s11697_0_f_12_PRED"/></nt>
+<nt id="s11697_0_f_13" cat="--">
+   <edge label="NEUT" idref="s11697_0_f_13_NEUT"/></nt>
+<nt id="s11697_0_f_14" cat="--">
+   <edge label="NSYN" idref="s11697_0_f_14_NSYN"/></nt>
+<nt id="s11697_0_f_4" cat="--">
+   <edge label="--" idref="s11697_0_f_skulle"/>
+   <edge label="" idref="s11697_0_f_((5 . SUBJ) (9 . XCOMP))"/>
+   <edge label="VTYPE" idref="s11697_0_f_4_VTYPE"/>
+   <edge label="VFORM" idref="s11697_0_f_4_VFORM"/>
+   <edge label="TOPCP" idref="s11697_0_f_4_TOPCP"/>
+   <edge label="MODAL" idref="s11697_0_f_4_MODAL"/>
+   <edge label="CLAUSE-TYPE" idref="s11697_0_f_4_CLAUSE-TYPE"/>
+   <edge label="TNS-ASP" idref="s11697_0_f_8"/>
+   <edge label="XCOMP" idref="s11697_0_f_9"/>
+   <edge label="SUBJ" idref="s11697_0_f_5"/>
+   <edge label="PRED" idref="s11697_0_f_4_PRED"/></nt>
+<nt id="s11697_0_f_9" cat="--">
+   <edge label="--" idref="s11697_0_f_gjøre"/>
+   <edge label="" idref="s11697_0_f_((5 . SUBJ) (11 . OBJ))"/>
+   <edge label="VTYPE" idref="s11697_0_f_9_VTYPE"/>
+   <edge label="VFORM" idref="s11697_0_f_9_VFORM"/>
+   <edge label="CHECK" idref="s11697_0_f_10"/>
+   <edge label="OBJ" idref="s11697_0_f_11"/>
+   <edge label="SUBJ" idref="s11697_0_f_5"/>
+   <edge label="PRED" idref="s11697_0_f_9_PRED"/></nt>
+<nt id="s11697_0_f_5" cat="--">
+   <edge label="--" idref="s11697_0_f_jeg"/>
+   <edge label="" idref="s11697_0_f_NIL"/>
+   <edge label="REF" idref="s11697_0_f_5_REF"/>
+   <edge label="PRON-TYPE" idref="s11697_0_f_5_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s11697_0_f_5_PRON-FORM"/>
+   <edge label="PERS" idref="s11697_0_f_5_PERS"/>
+   <edge label="NUM" idref="s11697_0_f_5_NUM"/>
+   <edge label="DEF" idref="s11697_0_f_5_DEF"/>
+   <edge label="CASE" idref="s11697_0_f_5_CASE"/>
+   <edge label="NTYPE" idref="s11697_0_f_7"/>
+   <edge label="GEND" idref="s11697_0_f_6"/>
+   <edge label="PRED" idref="s11697_0_f_5_PRED"/></nt>
+<nt id="s11697_0_f_6" cat="--">
+   <edge label="NEUT" idref="s11697_0_f_6_NEUT"/></nt>
+<nt id="s11697_0_f_7" cat="--">
+   <edge label="NSYN" idref="s11697_0_f_7_NSYN"/></nt>
+<nt id="s11697_0_f_10" cat="--">
+   <edge label="_TOPVP" idref="s11697_0_f_10__TOPVP"/></nt>
+<nt id="s11697_0_f_8" cat="--">
+   <edge label="TENSE" idref="s11697_0_f_8_TENSE"/>
+   <edge label="MOOD" idref="s11697_0_f_8_MOOD"/></nt>
+<nt id="s11697_0_f_15" cat="--">
+   <edge label="TENSE" idref="s11697_0_f_15_TENSE"/>
+   <edge label="MOOD" idref="s11697_0_f_15_MOOD"/></nt>
+<nt id="s11697_0_f_11" cat="--">
+   <edge label="--" idref="s11697_0_f_pro"/>
+   <edge label="" idref="s11697_0_f_NIL"/>
+   <edge label="PRON-TYPE" idref="s11697_0_f_11_PRON-TYPE"/>
+   <edge label="PRED" idref="s11697_0_f_11_PRED"/></nt>
+<nt id="s11697_0_f_16" cat="--">
+   <edge label="NSYN" idref="s11697_0_f_16_NSYN"/></nt>
+</nonterminals>
+</graph>
+</s>
+<s id="s18798">
+<graph root="s127_45_c_4630">
+<terminals>
+<t id="s127_45_c_1" word="Jeg" val="--"/>
+<t id="s127_45_c_45" word="lurer" val="--"/>
+<t id="s127_45_c_140" word="alltid" val="--"/>
+<t id="s127_45_c_170" word="på" val="--"/>
+<t id="s127_45_c_208" word="hva" val="--"/>
+<t id="s127_45_c_246" word="det" val="--"/>
+<t id="s127_45_c_316" word="er" val="--"/>
+<t id="s127_45_c_352" word="hun" val="--"/>
+<t id="s127_45_c_379" word="tenker" val="--"/>
+<t id="s127_45_c_447" word="på" val="--"/>
+<t id="s127_45_c_485" word="." val="--"/>
+<t id="s127_45_f_236_VTYPE" word="--" val="main"/>
+<t id="s127_45_f_236_STMT-TYPE" word="--" val="decl"/>
+<t id="s127_45_f_236_VFORM" word="--" val="fin"/>
+<t id="s127_45_f_258_TENSE" word="--" val="pres"/>
+<t id="s127_45_f_258_MOOD" word="--" val="indicative"/>
+<t id="s127_45_f_238__POSTFINADV" word="--" val="+"/>
+<t id="s127_45_f_238__MAIN-CL" word="--" val="+"/>
+<t id="s127_45_f_259_REF" word="--" val="+"/>
+<t id="s127_45_f_259_PRON-TYPE" word="--" val="pers"/>
+<t id="s127_45_f_259_PRON-FORM" word="--" val="jeg"/>
+<t id="s127_45_f_259_PERS" word="--" val="1"/>
+<t id="s127_45_f_259_NUM" word="--" val="sg"/>
+<t id="s127_45_f_259_DEF" word="--" val="+"/>
+<t id="s127_45_f_259_CASE" word="--" val="nom"/>
+<t id="s127_45_f_261_NSYN" word="--" val="pronoun"/>
+<t id="s127_45_f_260_NEUT" word="--" val="-"/>
+<t id="s127_45_f_259_PRED" word="--" val="jeg"/>
+<t id="s127_45_f_231_ADV-TYPE" word="--" val="nexus"/>
+<t id="s127_45_f_231_PRED" word="--" val="alltid"/>
+<t id="s127_45_f_241_VTYPE" word="--" val="main"/>
+<t id="s127_45_f_241_VFORM" word="--" val="fin"/>
+<t id="s127_45_f_241_TOPCP" word="--" val="-"/>
+<t id="s127_45_f_241_PTYPE" word="--" val="nosem"/>
+<t id="s127_45_f_241_PFORM" word="--" val="på"/>
+<t id="s127_45_f_241_CLAUSE-TYPE" word="--" val="wh-int"/>
+<t id="s127_45_f_241_VCONSTR" word="--" val="cleft"/>
+<t id="s127_45_f_88_TENSE" word="--" val="pres"/>
+<t id="s127_45_f_88_MOOD" word="--" val="indicative"/>
+<t id="s127_45_f_244_RESTR" word="--" val="+"/>
+<t id="s127_45_f_244_VTYPE" word="--" val="main"/>
+<t id="s127_45_f_244_VFORM" word="--" val="fin"/>
+<t id="s127_45_f_35_PTYPE" word="--" val="nosem"/>
+<t id="s127_45_f_35_PFORM" word="--" val="på"/>
+<t id="s127_45_f_35_PERS" word="--" val="3"/>
+<t id="s127_45_f_35_NUM" word="--" val="sg"/>
+<t id="s127_45_f_35_CASE" word="--" val="obl"/>
+<t id="s127_45_f_36__UNIQUEOCCURRENCE" word="--" val="+_"/>
+<t id="s127_45_f_36__MOVED-OBJ" word="--" val="+"/>
+<t id="s127_45_f_36__PREPEXISTS" word="--" val="+"/>
+<t id="s127_45_f_36__P-SELFORM" word="--" val="på"/>
+<t id="s127_45_f_37_PERS" word="--" val="3"/>
+<t id="s127_45_f_37_NUM" word="--" val="sg"/>
+<t id="s127_45_f_35_PRED" word="--" val="pro"/>
+<t id="s127_45_f_244_TOPCP" word="--" val="-"/>
+<t id="s127_45_f_192_TENSE" word="--" val="pres"/>
+<t id="s127_45_f_192_MOOD" word="--" val="indicative"/>
+<t id="s127_45_f_244_CLAUSE-TYPE" word="--" val="rel"/>
+<t id="s127_45_f_248_PRON-TYPE" word="--" val="pers"/>
+<t id="s127_45_f_248_PRON-FORM" word="--" val="hun"/>
+<t id="s127_45_f_248_PERS" word="--" val="3"/>
+<t id="s127_45_f_248_NUM" word="--" val="sg"/>
+<t id="s127_45_f_248_CASE" word="--" val="nom"/>
+<t id="s127_45_f_248_REF" word="--" val="+"/>
+<t id="s127_45_f_191_NSYN" word="--" val="pronoun"/>
+<t id="s127_45_f_248_GEND-SEM" word="--" val="female"/>
+<t id="s127_45_f_249_NEUT" word="--" val="-"/>
+<t id="s127_45_f_249_MASC" word="--" val="-"/>
+<t id="s127_45_f_249_FEM" word="--" val="+"/>
+<t id="s127_45_f_248_DEF" word="--" val="+"/>
+<t id="s127_45_f_248_PRED" word="--" val="hun"/>
+<t id="s127_45_f_244_PRED" word="--" val="tenke*på"/>
+<t id="s127_45_f_250_REF" word="--" val="+"/>
+<t id="s127_45_f_250_PRON-FORM" word="--" val="hva"/>
+<t id="s127_45_f_250_PERS" word="--" val="3"/>
+<t id="s127_45_f_250_NUM" word="--" val="sg"/>
+<t id="s127_45_f_250_PRON-TYPE" word="--" val="int"/>
+<t id="s127_45_f_70_NSYN" word="--" val="pronoun"/>
+<t id="s127_45_f_250_PRED" word="--" val="pro"/>
+<t id="s127_45_f_242__UNIQUEOCCURRENCE" word="--" val="+_"/>
+<t id="s127_45_f_242__PREPEXISTS" word="--" val="+"/>
+<t id="s127_45_f_242__P-SELFORM" word="--" val="på"/>
+<t id="s127_45_f_242__MOVED-OBJ" word="--" val="-"/>
+<t id="s127_45_f_242__VCONSTR" word="--" val="cleft"/>
+<t id="s127_45_f_17_PERS" word="--" val="1"/>
+<t id="s127_45_f_17_NUM" word="--" val="sg"/>
+<t id="s127_45_f_252_PRON-TYPE" word="--" val="expl_"/>
+<t id="s127_45_f_252_PERS" word="--" val="3"/>
+<t id="s127_45_f_252_NUM" word="--" val="sg"/>
+<t id="s127_45_f_252_CASE" word="--" val="nom"/>
+<t id="s127_45_f_252_REF" word="--" val="-"/>
+<t id="s127_45_f_252_PRON-FORM" word="--" val="det"/>
+<t id="s127_45_f_83_NSYN" word="--" val="pronoun"/>
+<t id="s127_45_f_253_NEUT" word="--" val="+"/>
+<t id="s127_45_f_253_MASC" word="--" val="-"/>
+<t id="s127_45_f_253_FEM" word="--" val="-"/>
+<t id="s127_45_f_241_PRED" word="--" val="være"/>
+<t id="s127_45_f_236_PRED" word="--" val="lure*på"/>
+</terminals>
+<nonterminals>
+<nt id="s127_45_c_4630" cat="ROOT">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_4667"/>
+   <edge label="--" idref="s127_45_c_486"/></nt>
+<nt id="s127_45_c_4667" cat="IP">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_819"/>
+   <edge label="--" idref="s127_45_c_5828"/></nt>
+<nt id="s127_45_c_819" cat="PRONP">
+   <edge label="f::" idref="s127_45_f_259"/>
+   <edge label="--" idref="s127_45_c_817"/></nt>
+<nt id="s127_45_c_817" cat="PRON">
+   <edge label="f::" idref="s127_45_f_259"/>
+   <edge label="--" idref="s127_45_c_1"/></nt>
+<nt id="s127_45_c_5828" cat="I'">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_5463"/>
+   <edge label="--" idref="s127_45_c_5826"/></nt>
+<nt id="s127_45_c_5463" cat="Vfin">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_45"/></nt>
+<nt id="s127_45_c_5826" cat="S">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_3840"/>
+   <edge label="--" idref="s127_45_c_5926"/></nt>
+<nt id="s127_45_c_3840" cat="ADVPs">
+   <edge label="f::" idref="s127_45_f_231"/>
+   <edge label="--" idref="s127_45_c_3837"/></nt>
+<nt id="s127_45_c_3837" cat="ADVs">
+   <edge label="f::" idref="s127_45_f_231"/>
+   <edge label="--" idref="s127_45_c_140"/></nt>
+<nt id="s127_45_c_5926" cat="VPmain">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_4373"/></nt>
+<nt id="s127_45_c_4373" cat="PPsel-v">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_177"/>
+   <edge label="--" idref="s127_45_c_4444"/></nt>
+<nt id="s127_45_c_177" cat="Psel-v">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_170"/></nt>
+<nt id="s127_45_c_4444" cat="WhP">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_4400"/>
+   <edge label="--" idref="s127_45_c_4441"/></nt>
+<nt id="s127_45_c_4400" cat="PRONPint">
+   <edge label="f::" idref="s127_45_f_250"/>
+   <edge label="--" idref="s127_45_c_210"/></nt>
+<nt id="s127_45_c_210" cat="PRONint">
+   <edge label="f::" idref="s127_45_f_250"/>
+   <edge label="--" idref="s127_45_c_208"/></nt>
+<nt id="s127_45_c_4441" cat="Ssub">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_247"/>
+   <edge label="--" idref="s127_45_c_3356"/></nt>
+<nt id="s127_45_c_247" cat="PRONexpl">
+   <edge label="f::" idref="s127_45_f_252"/>
+   <edge label="--" idref="s127_45_c_246"/></nt>
+<nt id="s127_45_c_3356" cat="VPcopfin">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_3349"/>
+   <edge label="--" idref="s127_45_c_3445"/></nt>
+<nt id="s127_45_c_3349" cat="Vimprsfin">
+   <edge label="f::" idref="s127_45_f_241"/>
+   <edge label="--" idref="s127_45_c_316"/></nt>
+<nt id="s127_45_c_3445" cat="Ssub2">
+   <edge label="f::" idref="s127_45_f_244"/>
+   <edge label="--" idref="s127_45_c_2001"/>
+   <edge label="--" idref="s127_45_c_3414"/></nt>
+<nt id="s127_45_c_2001" cat="PRONP">
+   <edge label="f::" idref="s127_45_f_248"/>
+   <edge label="--" idref="s127_45_c_353"/></nt>
+<nt id="s127_45_c_353" cat="PRON">
+   <edge label="f::" idref="s127_45_f_248"/>
+   <edge label="--" idref="s127_45_c_352"/></nt>
+<nt id="s127_45_c_3414" cat="VPfin">
+   <edge label="f::" idref="s127_45_f_244"/>
+   <edge label="--" idref="s127_45_c_3407"/>
+   <edge label="--" idref="s127_45_c_2827"/></nt>
+<nt id="s127_45_c_3407" cat="Vfin">
+   <edge label="f::" idref="s127_45_f_244"/>
+   <edge label="--" idref="s127_45_c_379"/></nt>
+<nt id="s127_45_c_2827" cat="PPsel-n">
+   <edge label="f::" idref="s127_45_f_35"/>
+   <edge label="--" idref="s127_45_c_454"/></nt>
+<nt id="s127_45_c_454" cat="Psel-v">
+   <edge label="f::" idref="s127_45_f_35"/>
+   <edge label="--" idref="s127_45_c_447"/></nt>
+<nt id="s127_45_c_486" cat="PERIOD">
+   <edge label="f::" idref="s127_45_f_236"/>
+   <edge label="--" idref="s127_45_c_485"/></nt>
+<nt id="s127_45_f_0" cat="_TOP">
+   <edge label="VTYPE" idref="s127_45_f_236_VTYPE"/>
+   <edge label="STMT-TYPE" idref="s127_45_f_236_STMT-TYPE"/>
+   <edge label="VFORM" idref="s127_45_f_236_VFORM"/>
+   <edge label="TNS-ASP" idref="s127_45_f_258"/>
+   <edge label="CHECK" idref="s127_45_f_238"/>
+   <edge label="TOPIC" idref="s127_45_f_259"/>
+   <edge label="ADJUNCT" idref="s127_45_f_237"/>
+   <edge label="COMP" idref="s127_45_f_241"/>
+   <edge label="SUBJ" idref="s127_45_f_259"/>
+   <edge label="PRED" idref="s127_45_f_236_PRED"/></nt>
+<nt id="s127_45_f_241" cat="--">
+   <edge label="--" idref="s127_45_f_være"/>
+   <edge label="252, " idref="s127_45_f_((244 . COMP) (250 . PREDLINK))"/>
+   <edge label="VTYPE" idref="s127_45_f_241_VTYPE"/>
+   <edge label="VFORM" idref="s127_45_f_241_VFORM"/>
+   <edge label="TOPCP" idref="s127_45_f_241_TOPCP"/>
+   <edge label="PTYPE" idref="s127_45_f_241_PTYPE"/>
+   <edge label="PFORM" idref="s127_45_f_241_PFORM"/>
+   <edge label="CLAUSE-TYPE" idref="s127_45_f_241_CLAUSE-TYPE"/>
+   <edge label="VCONSTR" idref="s127_45_f_241_VCONSTR"/>
+   <edge label="TNS-ASP" idref="s127_45_f_88"/>
+   <edge label="GVN-TOP" idref="s127_45_f_244"/>
+   <edge label="FOCUS-INT" idref="s127_45_f_250"/>
+   <edge label="CHECK" idref="s127_45_f_242"/>
+   <edge label="FOCUS" idref="s127_45_f_250"/>
+   <edge label="PREDLINK" idref="s127_45_f_250"/>
+   <edge label="COMP" idref="s127_45_f_244"/>
+   <edge label="SUBJ" idref="s127_45_f_252"/>
+   <edge label="PRED" idref="s127_45_f_241_PRED"/></nt>
+<nt id="s127_45_f_252" cat="--">
+   <edge label="PRON-TYPE" idref="s127_45_f_252_PRON-TYPE"/>
+   <edge label="PERS" idref="s127_45_f_252_PERS"/>
+   <edge label="NUM" idref="s127_45_f_252_NUM"/>
+   <edge label="CASE" idref="s127_45_f_252_CASE"/>
+   <edge label="REF" idref="s127_45_f_252_REF"/>
+   <edge label="PRON-FORM" idref="s127_45_f_252_PRON-FORM"/>
+   <edge label="NTYPE" idref="s127_45_f_83"/>
+   <edge label="GEND" idref="s127_45_f_253"/></nt>
+<nt id="s127_45_f_253" cat="--">
+   <edge label="NEUT" idref="s127_45_f_253_NEUT"/>
+   <edge label="MASC" idref="s127_45_f_253_MASC"/>
+   <edge label="FEM" idref="s127_45_f_253_FEM"/></nt>
+<nt id="s127_45_f_83" cat="--">
+   <edge label="NSYN" idref="s127_45_f_83_NSYN"/></nt>
+<nt id="s127_45_f_242" cat="--">
+   <edge label="_UNIQUEOCCURRENCE" idref="s127_45_f_242__UNIQUEOCCURRENCE"/>
+   <edge label="_PREPEXISTS" idref="s127_45_f_242__PREPEXISTS"/>
+   <edge label="_P-SELFORM" idref="s127_45_f_242__P-SELFORM"/>
+   <edge label="_MOVED-OBJ" idref="s127_45_f_242__MOVED-OBJ"/>
+   <edge label="_VCONSTR" idref="s127_45_f_242__VCONSTR"/>
+   <edge label="_ANTECED" idref="s127_45_f_17"/></nt>
+<nt id="s127_45_f_17" cat="--">
+   <edge label="PERS" idref="s127_45_f_17_PERS"/>
+   <edge label="NUM" idref="s127_45_f_17_NUM"/></nt>
+<nt id="s127_45_f_250" cat="--">
+   <edge label="--" idref="s127_45_f_pro"/>
+   <edge label="" idref="s127_45_f_NIL"/>
+   <edge label="REF" idref="s127_45_f_250_REF"/>
+   <edge label="PRON-FORM" idref="s127_45_f_250_PRON-FORM"/>
+   <edge label="PERS" idref="s127_45_f_250_PERS"/>
+   <edge label="NUM" idref="s127_45_f_250_NUM"/>
+   <edge label="PRON-TYPE" idref="s127_45_f_250_PRON-TYPE"/>
+   <edge label="NTYPE" idref="s127_45_f_70"/>
+   <edge label="PRED" idref="s127_45_f_250_PRED"/></nt>
+<nt id="s127_45_f_70" cat="--">
+   <edge label="NSYN" idref="s127_45_f_70_NSYN"/></nt>
+<nt id="s127_45_f_244" cat="--">
+   <edge label="--" idref="s127_45_f_tenke*på"/>
+   <edge label="" idref="s127_45_f_((248 . SUBJ) (35 . OBL-TH))"/>
+   <edge label="RESTR" idref="s127_45_f_244_RESTR"/>
+   <edge label="VTYPE" idref="s127_45_f_244_VTYPE"/>
+   <edge label="VFORM" idref="s127_45_f_244_VFORM"/>
+   <edge label="TOPIC-REL" idref="s127_45_f_35"/>
+   <edge label="TOPCP" idref="s127_45_f_244_TOPCP"/>
+   <edge label="TNS-ASP" idref="s127_45_f_192"/>
+   <edge label="CLAUSE-TYPE" idref="s127_45_f_244_CLAUSE-TYPE"/>
+   <edge label="CHECK" idref="s127_45_f_33"/>
+   <edge label="OBL-TH" idref="s127_45_f_35"/>
+   <edge label="SUBJ" idref="s127_45_f_248"/>
+   <edge label="PRED" idref="s127_45_f_244_PRED"/></nt>
+<nt id="s127_45_f_248" cat="--">
+   <edge label="--" idref="s127_45_f_hun"/>
+   <edge label="" idref="s127_45_f_NIL"/>
+   <edge label="PRON-TYPE" idref="s127_45_f_248_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s127_45_f_248_PRON-FORM"/>
+   <edge label="PERS" idref="s127_45_f_248_PERS"/>
+   <edge label="NUM" idref="s127_45_f_248_NUM"/>
+   <edge label="CASE" idref="s127_45_f_248_CASE"/>
+   <edge label="REF" idref="s127_45_f_248_REF"/>
+   <edge label="NTYPE" idref="s127_45_f_191"/>
+   <edge label="GEND-SEM" idref="s127_45_f_248_GEND-SEM"/>
+   <edge label="GEND" idref="s127_45_f_249"/>
+   <edge label="DEF" idref="s127_45_f_248_DEF"/>
+   <edge label="PRED" idref="s127_45_f_248_PRED"/></nt>
+<nt id="s127_45_f_249" cat="--">
+   <edge label="NEUT" idref="s127_45_f_249_NEUT"/>
+   <edge label="MASC" idref="s127_45_f_249_MASC"/>
+   <edge label="FEM" idref="s127_45_f_249_FEM"/></nt>
+<nt id="s127_45_f_191" cat="--">
+   <edge label="NSYN" idref="s127_45_f_191_NSYN"/></nt>
+<nt id="s127_45_f_33" cat="--"></nt>
+<nt id="s127_45_f_192" cat="--">
+   <edge label="TENSE" idref="s127_45_f_192_TENSE"/>
+   <edge label="MOOD" idref="s127_45_f_192_MOOD"/></nt>
+<nt id="s127_45_f_35" cat="--">
+   <edge label="--" idref="s127_45_f_pro"/>
+   <edge label="" idref="s127_45_f_NIL"/>
+   <edge label="PTYPE" idref="s127_45_f_35_PTYPE"/>
+   <edge label="PFORM" idref="s127_45_f_35_PFORM"/>
+   <edge label="PERS" idref="s127_45_f_35_PERS"/>
+   <edge label="NUM" idref="s127_45_f_35_NUM"/>
+   <edge label="CASE" idref="s127_45_f_35_CASE"/>
+   <edge label="CHECK" idref="s127_45_f_36"/>
+   <edge label="PRED" idref="s127_45_f_35_PRED"/></nt>
+<nt id="s127_45_f_36" cat="--">
+   <edge label="_UNIQUEOCCURRENCE" idref="s127_45_f_36__UNIQUEOCCURRENCE"/>
+   <edge label="_MOVED-OBJ" idref="s127_45_f_36__MOVED-OBJ"/>
+   <edge label="_PREPEXISTS" idref="s127_45_f_36__PREPEXISTS"/>
+   <edge label="_P-SELFORM" idref="s127_45_f_36__P-SELFORM"/>
+   <edge label="_ANTECED" idref="s127_45_f_37"/></nt>
+<nt id="s127_45_f_37" cat="--">
+   <edge label="PERS" idref="s127_45_f_37_PERS"/>
+   <edge label="NUM" idref="s127_45_f_37_NUM"/></nt>
+<nt id="s127_45_f_88" cat="--">
+   <edge label="TENSE" idref="s127_45_f_88_TENSE"/>
+   <edge label="MOOD" idref="s127_45_f_88_MOOD"/></nt>
+<nt id="s127_45_f_237" cat="--">
+   <edge label="$" idref="s127_45_f_231"/></nt>
+<nt id="s127_45_f_231" cat="--">
+   <edge label="--" idref="s127_45_f_alltid"/>
+   <edge label="" idref="s127_45_f_NIL"/>
+   <edge label="ADV-TYPE" idref="s127_45_f_231_ADV-TYPE"/>
+   <edge label="PRED" idref="s127_45_f_231_PRED"/></nt>
+<nt id="s127_45_f_259" cat="--">
+   <edge label="--" idref="s127_45_f_jeg"/>
+   <edge label="" idref="s127_45_f_NIL"/>
+   <edge label="REF" idref="s127_45_f_259_REF"/>
+   <edge label="PRON-TYPE" idref="s127_45_f_259_PRON-TYPE"/>
+   <edge label="PRON-FORM" idref="s127_45_f_259_PRON-FORM"/>
+   <edge label="PERS" idref="s127_45_f_259_PERS"/>
+   <edge label="NUM" idref="s127_45_f_259_NUM"/>
+   <edge label="DEF" idref="s127_45_f_259_DEF"/>
+   <edge label="CASE" idref="s127_45_f_259_CASE"/>
+   <edge label="NTYPE" idref="s127_45_f_261"/>
+   <edge label="GEND" idref="s127_45_f_260"/>
+   <edge label="PRED" idref="s127_45_f_259_PRED"/></nt>
+<nt id="s127_45_f_260" cat="--">
+   <edge label="NEUT" idref="s127_45_f_260_NEUT"/></nt>
+<nt id="s127_45_f_261" cat="--">
+   <edge label="NSYN" idref="s127_45_f_261_NSYN"/></nt>
+<nt id="s127_45_f_238" cat="--">
+   <edge label="_POSTFINADV" idref="s127_45_f_238__POSTFINADV"/>
+   <edge label="_MAIN-CL" idref="s127_45_f_238__MAIN-CL"/></nt>
+<nt id="s127_45_f_258" cat="--">
+   <edge label="TENSE" idref="s127_45_f_258_TENSE"/>
+   <edge label="MOOD" idref="s127_45_f_258_MOOD"/></nt>
+</nonterminals>
+</graph>
+</s>
+</body>
+</corpus> 

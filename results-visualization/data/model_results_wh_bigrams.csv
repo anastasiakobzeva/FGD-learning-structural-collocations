@@ -1,0 +1,41 @@
+condition,distance,structure,path,log_probability,unattested_ngrams,dependency,n_gram
+Subject,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Subject,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Subject,Long,noIsland,start COMP_nominal SUBJ end,-20.232157578380278,"[('COMP_nominal', 'SUBJ')]",Wh,Bigram
+Subject,Long,Island,start COMP_nominal SUBJ ADJUNCT OBJ end,-35.260733842916046,"[('COMP_nominal', 'SUBJ'), ('SUBJ', 'ADJUNCT')]",Wh,Bigram
+CNP,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+CNP,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+CNP,Long,noIsland,start COMP_nominal OBJ end,-15.203977747295825,[],Wh,Bigram
+CNP,Long,Island,start OBJ COMP_nominal OBJ end,-23.50683734363109,"[('OBJ', 'COMP_nominal')]",Wh,Bigram
+EQ,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+EQ,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+EQ,Long,noIsland,start COMP_nominal SUBJ end,-20.232157578380278,"[('COMP_nominal', 'SUBJ')]",Wh,Bigram
+EQ,Long,Island,start COMP_wh-int SUBJ end,-25.733415788925004,"[('start', 'COMP_wh-int'), ('COMP_wh-int', 'SUBJ')]",Wh,Bigram
+EQ-object,Short,noIsland,start OBJ end,-4.9729348442622925,[],Wh,Bigram
+EQ-object,Short,Island,start OBJ end,-4.9729348442622925,[],Wh,Bigram
+EQ-object,Long,noIsland,start COMP_nominal OBJ end,-15.203977747295825,[],Wh,Bigram
+EQ-object,Long,Island,start COMP_wh-int OBJ end,-24.90992857723152,"[('start', 'COMP_wh-int'), ('COMP_wh-int', 'OBJ')]",Wh,Bigram
+Whether-subject,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Whether-subject,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Whether-subject,Long,noIsland,start COMP_nominal SUBJ end,-20.232157578380278,"[('COMP_nominal', 'SUBJ')]",Wh,Bigram
+Whether-subject,Long,Island,start COMP_pol-int SUBJ end,-25.733415788925004,"[('start', 'COMP_pol-int'), ('COMP_pol-int', 'SUBJ')]",Wh,Bigram
+Whether-object,Short,noIsland,start OBJ end,-4.9729348442622925,[],Wh,Bigram
+Whether-object,Short,Island,start OBJ end,-4.9729348442622925,[],Wh,Bigram
+Whether-object,Long,noIsland,start COMP_nominal OBJ end,-15.203977747295825,[],Wh,Bigram
+Whether-object,Long,Island,start COMP_pol-int OBJ end,-24.90992857723152,"[('start', 'COMP_pol-int'), ('COMP_pol-int', 'OBJ')]",Wh,Bigram
+Adjunct,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Adjunct,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+Adjunct,Long,noIsland,start COMP_nominal OBJ end,-15.203977747295825,[],Wh,Bigram
+Adjunct,Long,Island,start ADJUNCT_adv OBJ end,-24.90992857723152,"[('start', 'ADJUNCT_adv'), ('ADJUNCT_adv', 'OBJ')]",Wh,Bigram
+RC-predlink,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+RC-predlink,Short,Island,start PREDLINK end,-4.687059766857507,[],Wh,Bigram
+RC-predlink,Long,noIsland,start COMP_nominal OBJ end,-15.203977747295825,[],Wh,Bigram
+RC-predlink,Long,Island,start ADJUNCT_rel OBJ end,-24.90992857723152,"[('start', 'ADJUNCT_rel'), ('ADJUNCT_rel', 'OBJ')]",Wh,Bigram
+RC-subject,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+RC-subject,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+RC-subject,Long,noIsland,start COMP_nominal SUBJ end,-20.232157578380278,"[('COMP_nominal', 'SUBJ')]",Wh,Bigram
+RC-subject,Long,Island,start ADJUNCT_rel SUBJ end,-25.733415788925004,"[('start', 'ADJUNCT_rel'), ('ADJUNCT_rel', 'SUBJ')]",Wh,Bigram
+RC-Pcomp,Short,noIsland,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+RC-Pcomp,Short,Island,start SUBJ end,-6.3620934113290115,[],Wh,Bigram
+RC-Pcomp,Long,noIsland,start COMP_nominal ADJUNCT OBJ end,-20.28051837089194,[],Wh,Bigram
+RC-Pcomp,Long,Island,start ADJUNCT_rel ADJUNCT OBJ end,-29.39269449408089,"[('start', 'ADJUNCT_rel'), ('ADJUNCT_rel', 'ADJUNCT')]",Wh,Bigram

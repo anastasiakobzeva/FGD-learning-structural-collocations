@@ -1,0 +1,41 @@
+condition,distance,structure,path,log_probability,unattested_ngrams,dependency,n_gram
+Subject,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Subject,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Subject,Long,noIsland,start COMP_nominal SUBJ end,-21.58456750020178,"[('start', 'COMP_nominal', 'SUBJ'), ('COMP_nominal', 'SUBJ', 'end')]",Wh,Trigram
+Subject,Long,Island,start COMP_nominal SUBJ ADJUNCT OBJ end,-36.28260335787305,"[('start', 'COMP_nominal', 'SUBJ'), ('COMP_nominal', 'SUBJ', 'ADJUNCT'), ('SUBJ', 'ADJUNCT', 'OBJ')]",Wh,Trigram
+CNP,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+CNP,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+CNP,Long,noIsland,start COMP_nominal OBJ end,-13.205487610915178,[],Wh,Trigram
+CNP,Long,Island,start OBJ COMP_nominal OBJ end,-28.172158630911703,"[('start', 'OBJ', 'COMP_nominal'), ('OBJ', 'COMP_nominal', 'OBJ')]",Wh,Trigram
+EQ,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+EQ,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+EQ,Long,noIsland,start COMP_nominal SUBJ end,-21.58456750020178,"[('start', 'COMP_nominal', 'SUBJ'), ('COMP_nominal', 'SUBJ', 'end')]",Wh,Trigram
+EQ,Long,Island,start COMP_wh-int SUBJ end,-21.58456750020178,"[('start', 'COMP_wh-int', 'SUBJ'), ('COMP_wh-int', 'SUBJ', 'end')]",Wh,Trigram
+EQ-object,Short,noIsland,start OBJ end,-2.2268719864141784,[],Wh,Trigram
+EQ-object,Short,Island,start OBJ end,-2.2268719864141784,[],Wh,Trigram
+EQ-object,Long,noIsland,start COMP_nominal OBJ end,-13.205487610915178,[],Wh,Trigram
+EQ-object,Long,Island,start COMP_wh-int OBJ end,-21.58456750020178,"[('start', 'COMP_wh-int', 'OBJ'), ('COMP_wh-int', 'OBJ', 'end')]",Wh,Trigram
+Whether-subject,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Whether-subject,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Whether-subject,Long,noIsland,start COMP_nominal SUBJ end,-21.58456750020178,"[('start', 'COMP_nominal', 'SUBJ'), ('COMP_nominal', 'SUBJ', 'end')]",Wh,Trigram
+Whether-subject,Long,Island,start COMP_pol-int SUBJ end,-21.58456750020178,"[('start', 'COMP_pol-int', 'SUBJ'), ('COMP_pol-int', 'SUBJ', 'end')]",Wh,Trigram
+Whether-object,Short,noIsland,start OBJ end,-2.2268719864141784,[],Wh,Trigram
+Whether-object,Short,Island,start OBJ end,-2.2268719864141784,[],Wh,Trigram
+Whether-object,Long,noIsland,start COMP_nominal OBJ end,-13.205487610915178,[],Wh,Trigram
+Whether-object,Long,Island,start COMP_pol-int OBJ end,-21.58456750020178,"[('start', 'COMP_pol-int', 'OBJ'), ('COMP_pol-int', 'OBJ', 'end')]",Wh,Trigram
+Adjunct,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Adjunct,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+Adjunct,Long,noIsland,start COMP_nominal OBJ end,-13.205487610915178,[],Wh,Trigram
+Adjunct,Long,Island,start ADJUNCT_adv OBJ end,-21.58456750020178,"[('start', 'ADJUNCT_adv', 'OBJ'), ('ADJUNCT_adv', 'OBJ', 'end')]",Wh,Trigram
+RC-predlink,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+RC-predlink,Short,Island,start PREDLINK end,-1.8226146463071335,[],Wh,Trigram
+RC-predlink,Long,noIsland,start COMP_nominal OBJ end,-13.205487610915178,[],Wh,Trigram
+RC-predlink,Long,Island,start ADJUNCT_rel OBJ end,-21.58456750020178,"[('start', 'ADJUNCT_rel', 'OBJ'), ('ADJUNCT_rel', 'OBJ', 'end')]",Wh,Trigram
+RC-subject,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+RC-subject,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+RC-subject,Long,noIsland,start COMP_nominal SUBJ end,-21.58456750020178,"[('start', 'COMP_nominal', 'SUBJ'), ('COMP_nominal', 'SUBJ', 'end')]",Wh,Trigram
+RC-subject,Long,Island,start ADJUNCT_rel SUBJ end,-21.58456750020178,"[('start', 'ADJUNCT_rel', 'SUBJ'), ('ADJUNCT_rel', 'SUBJ', 'end')]",Wh,Trigram
+RC-Pcomp,Short,noIsland,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+RC-Pcomp,Short,Island,start SUBJ end,-2.79025893188478,[],Wh,Trigram
+RC-Pcomp,Long,noIsland,start COMP_nominal ADJUNCT OBJ end,-20.269963782693836,[],Wh,Trigram
+RC-Pcomp,Long,Island,start ADJUNCT_rel ADJUNCT OBJ end,-25.49031960777216,"[('start', 'ADJUNCT_rel', 'ADJUNCT'), ('ADJUNCT_rel', 'ADJUNCT', 'OBJ')]",Wh,Trigram

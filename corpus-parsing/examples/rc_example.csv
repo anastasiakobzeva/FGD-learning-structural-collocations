@@ -1,0 +1,4 @@
+web_id,sent_id,graph_id,text,pro_position,cleaned_path
+2667,s61830,s2667_0_c_6962,Så kokte de undertøyet sitt i den gryta de laget mat i.,OBJ,ADJUNCT OBJ
+11697,s89660,s11697_0_c_3803,Akkurat hva jeg tenkte jeg skulle gjøre.,OBJ,COMP_nominal XCOMP OBJ
+127,s18798,s127_45_c_4630,Jeg lurer alltid på hva det er hun tenker på.,OBL-TH,OBL-TH
