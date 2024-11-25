@@ -14,6 +14,7 @@ Here you can find scripts for processing annotated corpus data in tiger-XML form
 - script for extracting FGDs paths from LFG's f-structure (`find_f_labels.py`, to be run from Python interpreter)
 - wh-FGDs paths extracted from the nob-child, with 14% of the data manually checked (`output_wh_corrected_oct23.xlsx`)
 - RC-FGDs paths extracted from the nob-child, with 22% of the data manually checked (`output_rc_corrected_oct23.xlsx`)
+
 In the `examples` folder, you can find:
 - example of raw data in tiger-XML (input to `find_f_labels.py`)
 - example output file with extracted FGDs (output of `find_f_labels.py`)
